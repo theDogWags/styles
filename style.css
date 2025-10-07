@@ -1,19 +1,12 @@
-/*  
-Theme Name: Koven Responsive Version
-Description: It's... you know, responsive.
-Author: Kent Koven
-Author URI: http://www.kentkoven.com
-*/
-
 /***** General stuff *****/
 .desktopOnly {
-	display:none;
+	display: none;
 }
 .mobileOnly {
-	display:block;
+	display: block;
 }
 .hidden {
-	display:none !important;
+	display: none !important;
 }
 
 
