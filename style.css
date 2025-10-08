@@ -1,25 +1,27 @@
-/***** General stuff *****/
+/***** General stuff **********************************************************/
+
 .desktopOnly {
-	display: none;
+	display:none;
 }
 .mobileOnly {
-	display: block;
+	display:block;
 }
 .hidden {
-	display: none !important;
+	display:none !important;
 }
 
 
+html {
+	background-color:#ffffff;
+} 
 body {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5rem;
-	color: #333333;
-	margin: 0px;
-	padding: 0px;
-	-webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	color : #333333;
+	margin : 0px;
+	padding : 0px;
 }
 html, body {
 	width:100%;
@@ -105,6 +107,47 @@ a.linkButton.dark:hover {
 
 
 
+/* Menu Standards ___________________________________________________________________________*/
+.menu {
+    width: auto;
+}
+ul.menu  {
+    list-style: none;
+	padding: 0px;
+    margin: 0px;
+}
+.menu li {
+    position: relative;
+	list-style: none;
+    padding: 0px;
+    display: inline-block;
+}
+.menu a {
+    display: block;
+	font-size: 16px;
+    text-decoration: none;
+	text-transform: uppercase;
+    padding: 0px;
+    margin: 0px;
+    font-weight: 900;
+    opacity: .8;
+    line-height: 45px;
+}
+.menu a:hover {
+	cursor: pointer;
+}
+
+.menu li:hover > a,
+.menu ul:hover > a,
+.menu a:focus {
+	opacity: 1;
+}
+.menu .current_page_item > a,
+.menu .current_page_ancestor > a,
+.menu .current_page_item > a:hover,
+.menu .current_page_ancestor > a:hover {
+	opacity: 1;
+}
 
 
 
@@ -118,7 +161,7 @@ a.linkButton.dark:hover {
 
 /* Layout ___________________________________________________________________________*/
 header {
-	position: fixed;
+	position:fixed;
 	width:100%;
 	height:55px;
 	background-color: #ffffff;
@@ -128,8 +171,8 @@ header {
     z-index: 150;
 }
 .topLogo {
-	position: absolute;
-	width: auto;
+	position:absolute;
+	width:auto;
 	height: 80px;
 	top:10px;
 	left:15px;
@@ -139,7 +182,7 @@ header {
 	display:block;
 	width:auto !important;
 	height:100% !important;
-    filter: drop-shadow(0px 0px 3px #999);
+    filter: drop-shadow(5px 5px 5px #222);
 }
 
 
@@ -227,6 +270,13 @@ html, body {
 	height:auto;
 	width:auto;
 }
+
+
+
+
+
+
+
 
 
 
