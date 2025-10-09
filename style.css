@@ -63,6 +63,10 @@ h1 {
 	background-size: cover;
 	background-position: center center;
 }
+.h1ColorOverlay {
+	position: absolute;
+	inset: 0;
+}
 
 
 
