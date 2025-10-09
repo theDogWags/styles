@@ -68,6 +68,10 @@ h1 {
 	inset: 0;
 	opacity: .9;
 }
+.h1BackgroundImage {
+	position: absolute;
+	inset: 0;
+}
 
 
 
