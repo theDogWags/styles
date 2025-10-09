@@ -160,32 +160,6 @@ ul.menu  {
 
 
 /* Layout ___________________________________________________________________________*/
-header {
-	position:fixed;
-	width:100%;
-	height:55px;
-	background-color: #ffffff;
-	top:0px;
-    box-shadow: 0 8px 6px -6px black; 
-    border-bottom: 10px solid #E61E2F;
-    z-index: 150;
-}
-.topLogo {
-	position:absolute;
-	width:auto;
-	height: 80px;
-	top:10px;
-	left:15px;
-	z-index:15;
-}
-.topLogo img {
-	display:block;
-	width:auto !important;
-	height:100% !important;
-    filter: drop-shadow(5px 5px 5px #222);
-}
-
-
 .div1300 {
     max-width: 1300px;
     margin: auto;
@@ -236,7 +210,6 @@ footer {
 	padding: 50px 25px;
     color:#ffffff;
     background: #162C53;
-    border-top: 10px solid #E61E2F;
 }
 
 
