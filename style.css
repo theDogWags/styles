@@ -1,13 +1,13 @@
 /***** General stuff **********************************************************/
 
 .desktopOnly {
-	display:none;
+	display: none;
 }
 .mobileOnly {
-	display:block;
+	display: block;
 }
 .hidden {
-	display:none !important;
+	display: none !important;
 }
 
 
@@ -19,9 +19,9 @@ body {
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.5rem;
-	color : #333333;
-	margin : 0px;
-	padding : 0px;
+	color: #333333;
+	margin: 0px;
+	padding: 0px;
 }
 html, body {
 	width:100%;
@@ -34,10 +34,10 @@ img {
 	display: block;
 }
 a img {
-	border:none;
+	border: none;
 }
 a {
-	outline:none;
+	outline: none;
 }
 a:link, a:visited, a:hover, a:active {
 	color:#006FBA;
@@ -155,10 +155,6 @@ ul.menu  {
 
 
 
-
-
-
-
 /* Layout ___________________________________________________________________________*/
 .div1300 {
     max-width: 1300px;
@@ -206,7 +202,7 @@ ul.menu  {
 
 
 footer {
-	text-align:center;
+	text-align: center;
 	padding: 50px 25px;
     color:#ffffff;
     background: #162C53;
@@ -221,34 +217,28 @@ footer {
 @media (min-width:800px){
 
 .desktopOnly {
-	display:block;
+	display: block;
 }
 .mobileOnly {
-	display:none;
+	display: none;
 }
 .hidden {
-	display:none !important;
+	display: none !important;
 }
 .flex {
 	display: flex;
 }
 html {
-	overflow:auto !important;
+	overflow: auto !important;
 }
 body {
-	margin:0px;
-	overflow:auto !important;
+	margin: 0px;
+	overflow: auto !important;
 }
 html, body {
-	height:auto;
-	width:auto;
+	height: auto;
+	width: auto;
 }
-
-
-
-
-
-
 
 
 
@@ -257,31 +247,6 @@ html, body {
 
 
 /* Layout ___________________________________________________________________________*/
-header {
-    position: relative;
-    border-bottom: 35px solid #E61E2F;
-}
-.topLogo {
-	position:absolute;
-	width:auto;
-    height: 130px;
-	top:10px;
-	left:30px;
-	z-index:15;
-}
-.headerDateLocation {
-    position: absolute;
-    font-size: 18px;
-    top: 19px;
-    right: 25px;
-    left: 225px;
-    text-align: center;
-    color: #162C53;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: 6px;
-}
-
 
 .pageTitle {
 	font-size: 3rem;
@@ -302,8 +267,3 @@ header {
 
 
 }
-
-
-
-
-
