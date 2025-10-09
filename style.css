@@ -66,6 +66,7 @@ h1 {
 .h1ColorOverlay {
 	position: absolute;
 	inset: 0;
+	opacity: .9;
 }
 
 
