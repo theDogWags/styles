@@ -1,0 +1,84 @@
+<style>
+.indexStory {
+	position: relative;
+	display: inline-block;
+	max-width: 350px;
+  margin: 20px;
+  border: 1px solid #e2e2e2;
+  transition: all .2s ease-in-out;
+}
+.indexStory:hover {
+  transform: scale(1.025);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.indexStory a {
+	position: absolute;
+	inset: 0;
+	z-index:10;
+}
+.indexStoryPic {
+	width: 100%;
+}
+.indexStoryPic img {
+	width: 100% !important;
+	height: auto !important;
+  display: block;
+}
+.indexStoryText {
+	text-align: center;
+  padding: 18px;
+}
+.indexStoryDate {
+	font-size: 11px;
+	margin-bottom: 5px;
+	color: #666666;
+}
+.indexStoryTitle {
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.indexStoryExcerpt {
+	line-height: 19px;
+	margin-top: 5px;
+	color: #a2a2a2;
+	font-size: 13px;
+}
+
+
+
+
+
+
+.pagination {
+  clear: both;
+  padding: 20px 0;
+  position: relative;
+  line-height: 13px;
+  text-align: center;
+  color: #ffffff;
+}
+.pagination span, .pagination a {
+  display: inline-block;
+  margin: 5px;
+  padding:8px;
+  text-decoration: none;
+  width: 15px;
+  height: 15px;
+  color: #ffffff;
+  background: #152D53;
+  opacity: .5;
+  border-radius: 15px;
+  font-size: 14px;
+}
+.pagination a:hover{
+	background: #70CEEB;
+	opacity: 1;
+}
+.pagination .current{
+background: #152D53;
+opacity: 1 !important;
+}
+
+
+
+</style>
