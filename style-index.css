@@ -3,9 +3,9 @@
 	position: relative;
 	display: inline-block;
 	max-width: 350px;
-  margin: 20px;
-  border: 1px solid #e2e2e2;
-  transition: all .2s ease-in-out;
+	margin: 20px;
+	border: 1px solid #e2e2e2;
+	transition: all .2s ease-in-out;
 }
 .indexStory:hover {
   transform: scale(1.025);
