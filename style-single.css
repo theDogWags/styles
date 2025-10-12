@@ -9,21 +9,19 @@ p img {
 
 
 
-.storyContent {
+.storyStoryContent {
 	padding: 0px 15px;
 }
-
-
 .paragraphTitle {
 	font-size: 2rem;
 	padding-top: 25px;
 	margin-bottom: 0px;
 	text-align: center;
 }
-.storyImage {
+.singleStoryImage {
 	padding: 0px 10px;
 }
-.storyImage img {
+.singleStoryImage img {
 	width: 100%;
 	height: auto;
 }
