@@ -1,0 +1,80 @@
+<style>
+p img {
+	width: 100%;
+}
+.singleStory {
+	background-color: #ffffff;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+
+
+
+.storyContent {
+	padding: 0px 15px;
+}
+
+
+.paragraphTitle {
+	font-size: 2rem;
+	padding-top: 25px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+.storyImage {
+	padding: 0px 10px;
+}
+.storyImage img {
+	width: 100%;
+	height: auto;
+}
+.blockTitle {
+	text-transform: capitalize;
+	text-align: center;
+	padding: 50px 10px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+
+ .moreStoryPic img {
+	width: 100%;
+	height: auto;
+    border: 1px solid #e2e2e2;
+}
+
+/* 800px and higher _________________________________________________________________________________________________________________________________________________________________________*/
+@media (min-width:800px){
+.singleStory {
+	flex: 3;
+}
+
+.moreNewsBlock {
+	display: block;
+	padding: 0px 25px;
+	flex: 1;
+	border-left: 1px dotted #e2e2e2;
+	margin-left: 25px;
+}
+.moreStory {
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: 35px;
+}
+.moreStoryPic {
+	width: 100%;
+}
+.moreStoryTitle {
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 5px;
+    text-align: center;
+}
+.moreStoryTitle a {
+	color: #272838;
+    font-weight: 700;
+}
+
+
+
+}
+</style>
