@@ -356,8 +356,25 @@ html, body {
 }
 
 
+/* Menu - Desktop ___________________________________________________________________________*/
+.desktopMenu ul {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.desktopMenu li {
+	display: inline-block;
+}
+.desktopMenu a {
+	font-size: 16px;
+	margin: 0px 8px;
+	line-height: 35px;
+    border: none;
+    opacity: .8;
+}
 
-
+	
 
 
 }
