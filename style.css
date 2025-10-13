@@ -250,6 +250,10 @@ ul.menu  {
 
 
 /* Layout ___________________________________________________________________________*/
+header {
+	z-index: 150;
+	position: fixed;
+}
 .topLogo {
 	position: absolute;
 	z-index: 15;
@@ -350,7 +354,9 @@ html, body {
 
 
 /* Layout ___________________________________________________________________________*/
-
+header {
+    position: relative;
+}
 .pageTitle {
 	font-size: 3rem;
 }
