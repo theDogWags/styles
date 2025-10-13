@@ -259,9 +259,8 @@ header {
 	z-index: 15;
 }
 .topLogo img {
-	width: 100% !important;
-	height: auto !important;
-	display: block;
+	width: 100%;
+	height: auto;
 }
 .div1300 {
     max-width: 1300px;
@@ -356,6 +355,10 @@ html, body {
 /* Layout ___________________________________________________________________________*/
 header {
     position: relative;
+}
+.topLogo img {
+	width: auto;
+	height: 100%;
 }
 .pageTitle {
 	font-size: 3rem;
