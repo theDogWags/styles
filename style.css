@@ -259,8 +259,8 @@ header {
 	z-index: 15;
 }
 .topLogo img {
-	width: auto !important;
-	height: 100% !important;
+	width: 100% !important;
+	height: auto !important;
 	display: block;
 }
 .div1300 {
