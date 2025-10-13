@@ -250,6 +250,10 @@ ul.menu  {
 
 
 /* Layout ___________________________________________________________________________*/
+.topLogo {
+	position: absolute;
+	z-index: 15;
+}
 .topLogo img {
 	width: auto !important;
 	height: 100% !important;
