@@ -250,6 +250,11 @@ ul.menu  {
 
 
 /* Layout ___________________________________________________________________________*/
+.topLogo img {
+	width: auto !important;
+	height: 100% !important;
+	display: block;
+}
 .div1300 {
     max-width: 1300px;
     margin: auto;
