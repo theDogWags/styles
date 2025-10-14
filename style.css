@@ -43,6 +43,10 @@ a:link, a:visited, a:hover, a:active {
 	color: #006FBA;
 	text-decoration: none;
 }
+a.absoluteLink {
+	position: absolute;
+	inset: 0;
+}
 ul {
 	padding:5px;
 	margin:0px;
